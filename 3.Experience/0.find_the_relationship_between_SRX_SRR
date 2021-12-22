@@ -1,0 +1,3 @@
+1. use SRR list to make SRR_SRX list
+2. cut -f 2 SRR_SRX | uniq > RX       We will find the uniq SRX through this step
+3. cat RX | while read i;do paste <(echo $i) <(grep $i new_total_sra_SRX_SRR | awk '{printf $2"、"}');done
