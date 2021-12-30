@@ -1,0 +1,13 @@
+Data in the SRA is organized into a series of metadata tables
+
+·SRP/ERP/DRP：A study is a set of experiments and has an overall goal.
+·SRS/ERS/DRS：An experiment targets one or more samples. Results are expressed in terms of individual samples or bundles of samples as defined by the experiment.
+·SRX/ERX/DRX：An experiment is a consistent set of laboratory operations on input material with an expected result.
+·SRR/DRR/ERR：Results are called runs. Runs comprise the data gathered for a sample or sample bundle and refer to a defining experiment.
+
+A Study (SRP) has one or more samples; a sample (SRS) has one or more experiments (SRX); an experiment has one or more runs (SRR)
+
+通过Google下的SRA_Accessions.tab,可以对SRR以及其对应的SRX关系进行提取
+
+注1：SRR 被提交到 NCBI（National Center for Biotechnology Information），ERR 被提交到 EBI（欧洲生物信息中心），DRR 被提交到 DDBJ（DNA Data Bank of Japan）
+注2：通常我们口语中的一个Sample是指一个SRX
