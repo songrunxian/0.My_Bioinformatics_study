@@ -11,3 +11,11 @@ A Study (SRP) has one or more samples; a sample (SRS) has one or more experiment
 
 注1：SRR 被提交到 NCBI（National Center for Biotechnology Information），ERR 被提交到 EBI（欧洲生物信息中心），DRR 被提交到 DDBJ（DNA Data Bank of Japan）
 注2：通常我们口语中的一个Sample是指一个SRX
+
+关于SRA数据的下载：
+通常我们在NCBI数据库中选择SRA库，然后使用sratoolkit中的prefectch下载，当然kingfisher也是可以的。
+例子：在SRA库中检索全部杨树的RNA-seq；
+      检索关键词：RNA-seq and populus 
+      
+
+
