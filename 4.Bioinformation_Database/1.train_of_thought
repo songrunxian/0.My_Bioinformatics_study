@@ -1,0 +1,8 @@
+1. df -h 寻找空间足够大的路径
+2. 准备好待续下载的SRR数据编号
+
+srr ➡ fastq ➡ mapping genome ➡ bam ➡ expression
+
+后续需要注意：guess adapter问题
+            鉴于公共数据中的测序adapter可能未知，因此也需要开发(当然也可以找现成的)相关的软件来guess adapter
+            
