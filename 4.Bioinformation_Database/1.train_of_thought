@@ -3,6 +3,8 @@
 
 srr ➡ fastq ➡ mapping genome ➡ bam ➡ expression
 
+关于srr数据的下载，推荐使用sratoolkit的prefetch下载，里面支持aspera协议，新版的sratoolkit只支持http下载
+
 后续需要注意：guess adapter问题
             鉴于公共数据中的测序adapter可能未知，因此也需要开发(当然也可以找现成的)相关的软件来guess adapter
             
