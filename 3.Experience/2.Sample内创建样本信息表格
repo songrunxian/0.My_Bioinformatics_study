@@ -1,0 +1,8 @@
+cd $file
+                grep ".gz" <(ls ${pwd}) > test1.txt
+                grep "_1.fastq.gz" test1.txt > f1.txt
+                grep "_2.fastq.gz" test1.txt > f2.txt
+                cat f1.txt f2.txt > f3.txt
+                grep -vf f3.txt test1.txt > f4.txt
+                paste f1.txt f2.txt > file
+cd ..
